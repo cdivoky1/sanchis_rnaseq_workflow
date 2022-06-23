@@ -13,7 +13,7 @@ dependencies:
   - r-plotly
   - r-stringr
   - pip
-  - pip:
+  pip:
     - matplotlib
     - numpy
     - pandas
