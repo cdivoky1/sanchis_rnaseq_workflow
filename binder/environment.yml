@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.7.7
-  - r-base=3.5.3
+  - r-base=4.0
   - r-dplyr
   - r-ggplot2
   - r-tidyverse
