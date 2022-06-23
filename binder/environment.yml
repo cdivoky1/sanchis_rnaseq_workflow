@@ -13,10 +13,10 @@ dependencies:
   - r-plotly
   - r-stringr
   - pip
-  pip:
-    - matplotlib
-    - numpy
-    - pandas
-    - plotly
-    - scikit-learn
+pip:
+  - matplotlib
+  - numpy
+  - pandas
+  - plotly
+  - scikit-learn
   
