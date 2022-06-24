@@ -1,4 +1,4 @@
-name: base
+name: class
 channels:
   - defaults
   - conda-forge
