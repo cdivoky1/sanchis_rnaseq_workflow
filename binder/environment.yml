@@ -1,30 +1,22 @@
-name: python 3.9
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
-  - python 3.9
-  - numpy
-  - pandas
-  - ploty
-  - scikit-learn
-
-#name: class
-#channels:
-#  - conda-forge
-#  - bioconda
-#  - defaults
-# dependencies:
- # - python=3.9
- # - r-base=4.0
- # - r-dplyr
- # - r-ggplot2
- # - r-tidyverse
- # - r-reshape2
- # - r-plotly
- # - r-stringr
- # - pip
- # - pip:
- #   - matplotlib
- #   - numpy
- #   - pandas
- #   - plotly
- #   - scikit-learn
+  - python=3.9
+  - r-base=4.0
+  - r-dplyr
+  - r-ggplot2
+  - r-tidyverse
+  - r-reshape2
+  - r-plotly
+  - r-stringr
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - pandas
+    - plotly
+    - scikit-learn
   
