@@ -1,10 +1,15 @@
 name: base
-channels:
-  - defaults
-  - conda-forge
-  - bioconda
+#channels:
+ # - defaults
+ # - conda-forge
+ # - bioconda
 dependencies:
-  - python=3.9
+   - matplotlib
+   - numpy
+   - pandas
+   - plotly
+   - scikit-learn
+ # - python=3.9
 #  - r-base=4.1.2
  # - r-dplyr
  # - r-ggplot2
@@ -13,10 +18,10 @@ dependencies:
  # - r-plotly
  # - r-stringr
  # - pip
-  - pip:
-    - matplotlib
-    - numpy
-    - pandas
-    - plotly
-    - scikit-learn
+ # - pip:
+ #   - matplotlib
+ #   - numpy
+ #   - pandas
+ #   - plotly
+ #   - scikit-learn
   
