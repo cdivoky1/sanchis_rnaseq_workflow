@@ -3,9 +3,10 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+  - BiocManager
 dependencies:
   - python=3.9
-  - r-base=4.2
+  - r-base=3.6.2
   - r-dplyr
   - r-ggplot2
   - r-tidyverse
