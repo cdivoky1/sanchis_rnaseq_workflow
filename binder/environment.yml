@@ -6,12 +6,12 @@ channels:
 dependencies:
   - python=3.9
   - r-base=4.0
-  - BiocManager
+  #- BiocManager
   - r-dplyr
   - r-ggplot2
   - r-tidyverse
   - r-reshape2
-  - r-deseq2
+  #- r-deseq2
   - r-plotly
   - r-stringr
   - pip
