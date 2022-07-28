@@ -4,16 +4,16 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  #- python=3.9
-  #- r-base=3.6.2
+  - python=3.9
+  - r-base=3.6.2
   #- BiocManager
-  #- r-dplyr
-  #- r-ggplot2
-  #- r-tidyverse
-  #- r-reshape2
-  #- r-deseq2
-  #- r-plotly
-  #- r-stringr
+  - r-dplyr
+  - r-ggplot2
+  - r-tidyverse
+  - r-reshape2
+  - r-deseq2
+  - r-plotly
+  - r-stringr
   - pip
   - pip:
     - matplotlib
